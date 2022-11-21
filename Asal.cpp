@@ -1,11 +1,11 @@
-//Fichero "Asalariado.cpp"
+ï»¿//Fichero "Asalariado.cpp"
 
 #include <string>
 #include "Asal.h"
 
 /*
-   Lo único reseñable en esta clase es que no aparece
-   la definición del método "getPlus(): double",
+   Lo Ãºnico reseÃ±able en esta clase es que no aparece
+   la definiciÃ³n del mÃ©todo "getPlus(): double",
    por ser el mismo abstracto
  */
 
@@ -34,9 +34,9 @@ void Asal::setDni (long nd){
 }
 
 /*
-   Las definiciones de los métodos "getSalario(): double"
+   Las definiciones de los mÃ©todos "getSalario(): double"
    y "setSalario(double): void" pueden ser llevadas
-   a cabo en la clase "Asal", haciendo uso del método
+   a cabo en la clase "Asal", haciendo uso del mÃ©todo
    "getPlus(): double", que es abstracto
 */
 
@@ -49,7 +49,7 @@ void Asal::setSalario (double s){
 }
 
 /*
-    El método abstracto, en este caso "getPlus(): double",
-    no tiene declaración, y por tanto no aparece en el fichero
+    El mÃ©todo abstracto, en este caso "getPlus(): double",
+    no tiene declaraciÃ³n, y por tanto no aparece en el fichero
     "Asal.cpp";
 */

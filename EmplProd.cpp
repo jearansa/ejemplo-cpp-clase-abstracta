@@ -1,4 +1,4 @@
-
+ï»¿
 #include <cstring>
 #include "EmplProd.h"
 
@@ -17,7 +17,7 @@ void EmplProd::setTurno (string nt){
 }
 
 /*
-   Aquí introducimos la definición del método "getPlus(): double"
+   AquÃ­ introducimos la definiciÃ³n del mÃ©todo "getPlus(): double"
    Esto nos asegura que la clase no sea abstracta
 */
 

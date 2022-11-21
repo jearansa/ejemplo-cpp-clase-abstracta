@@ -1,4 +1,4 @@
-//Fichero "Asal.h"
+Ôªø//Fichero "Asal.h"
 
 #ifndef ASAL_H
 #define ASAL_H 1
@@ -19,18 +19,18 @@ class Asal{
            void setNombre (string);
            long getDni ();
            void setDni (long);
-           /* Una cosa interesante es que el mÈtodo "getSalario(): double"
-            ya no debe ser enlazado din·micamente, hay una sola versiÛn
+           /* Una cosa interesante es que el m√©todo "getSalario(): double"
+            ya no debe ser enlazado din√°micamente, hay una sola versi√≥n
             del mismo en la clase "Asal" que es la que se invoca siempre */
            double getSalario ();
            void setSalario(double);
-           /* El mÈtodo "getPlus(): double" es declarado como
+           /* El m√©todo "getPlus(): double" es declarado como
               abstract en el fichero "Asal.h", por medio de la sintaxis "= 0;"
               Eso conlleva que el mismo no debe aparecer
               en el fichero "Asal.cpp".
               Es importante que el mismo lleve el modificador
               "virtual", ya que nos debemos asegurar de que sea
-              enlazado de manera din·mica, y de que sea redefinido en
+              enlazado de manera din√°mica, y de que sea redefinido en
               las clases derivadas de "Asal" */
            virtual double getPlus() = 0;
 };

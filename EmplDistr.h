@@ -1,4 +1,4 @@
-
+ï»¿
 #ifndef EMPLDISTR_H
 #define EMPLDISTR_H 1
 
@@ -18,11 +18,11 @@ class EmplDistr: public Asal{
   public:
          // Constructor
          EmplDistr(string, long, double, string);
-         // Métodos de instancia:
+         // MÃ©todos de instancia:
          string getRegion ( );
          void setRegion (string);
-         /* Si no declaramos y definimos el método "getPlus(): double"
-            en las clases derivadas, las mismas seguirían
+         /* Si no declaramos y definimos el mÃ©todo "getPlus(): double"
+            en las clases derivadas, las mismas seguirÃ­an
             siendo abstractas */
          double getPlus ( );
 };

@@ -1,4 +1,4 @@
-
+Ôªø
 #include <cstdlib>
 #include <iostream>
 
@@ -20,8 +20,8 @@ int main ( ){
     Una de las consecuencias de que la clase "Asal"
     sea abstracta es que no podemos construir
     objetos de la misma:
-    Asal a1 ("Juan Abad", 12345678, 1200); // Fallo de compilaciÛn
-    Asal v [50]; // Fallo de compilaciÛn
+    Asal a1 ("Juan Abad", 12345678, 1200); // Fallo de compilaci√≥n
+    Asal v [50]; // Fallo de compilaci√≥n
   */
 
  Asal * pa1 = new EmplProd ("Juan Mota", 55333222, 1200, "noche");
@@ -59,10 +59,10 @@ void muestraSalarioRef (Asal & a){
 }
 
 /*
-    El paso de objetos como par·metros lleva implÌcita la construcciÛn,
+    El paso de objetos como par√°metros lleva impl√≠cita la construcci√≥n,
     por medio del constructor de copia, de un objeto de la clase "Asal".
     Si la clase Asal es abstracta, el compilador no nos permite construir
-    objetos de la misma, y por tanto obtendrÌamos un fallo de compilaciÛn
+    objetos de la misma, y por tanto obtendr√≠amos un fallo de compilaci√≥n
 */
 
 /*void muestraSalarioObjeto (Asal a){
