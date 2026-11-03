@@ -44,7 +44,6 @@ int main ( ){
  muestraSalarioPuntero(pa1);
  muestraSalarioRef (*pa1);
 
- system ("PAUSE");
  return 0;
 }
 
